@@ -15,11 +15,20 @@
 
 </head>
 <body>
+<header onclick="window.location.href='https://szpital.legnica.pl';">
+   <img src="images/logo.jpg" alt="">
+   <h1>Wojewódzki Szpital Specjalistyczny
+      <br>
+      w Legnicy
+   </h1>
+</header>
 
 <div class="container">
-
+   <!-- nagłówek -->
    <h3 class="title"> Dobry posiłek </h3>
-   <p>data tutaj pierwsza</p>
+   <!-- data -->
+   <p>data tutaj pierwsza</p>    
+   <!-- kontener ze zdjęciami na dany dzień należy go skopiować i wkleić poniżej ale tak aby zawierał się w tym głównym kontenerze powyżej -->
    <div class="products-container">
 
       <div class="product" data-name="p-1">
@@ -38,7 +47,9 @@
       </div>
 
    </div>
+   <!-- data 2 -->
    <p>Data tutaj druga</p>
+   <!-- drugi kontener jakby kopia -->
    <div class="products-container">
       <div class="product" data-name="p-4">
          <img src="images/4.jpg" alt="">
@@ -57,10 +68,10 @@
    </div>
 
 </div>
-
+<!-- kontener dla zdjęć (poupup) -->
 <div class="products-preview">
-
-   <div class="preview" data-target="p-1">
+   <!-- pojedynczy element  -->
+   <div class="preview" data-target="p-1">   <!-- data-target musi być taka sama jak data-name powyżej aby skrypt wiedział co zostało naciśnięte i co ma wyświetlić  -->
       <i class="fas fa-times"></i>
       <img src="images/1.jpg" alt="">
       <h3>Szparagi pierwsza klassa</h3>
@@ -68,10 +79,10 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
    </div>
-
+   <!-- analogicznie, tyle ile elementów dodamy powyżej w product container tyle musimy dodać poniżej   -->
    <div class="preview" data-target="p-2">
       <i class="fas fa-times"></i>
-      <img src="images/2.jpg" alt="">
+      <img src="images/2.jpg" alt=""> 
       <h3>Łosoś</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>

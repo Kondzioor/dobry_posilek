@@ -20,3 +20,12 @@ previewBox.forEach(close =>{
     preveiwContainer.style.display = 'none';
   };
 });
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === "Escape") {
+    preveiwContainer.style.display = 'none';
+    previewBox.forEach(preview => {
+      preview.classList.remove('active');
+    });
+  }
+});
