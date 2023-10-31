@@ -14,9 +14,7 @@ html{
    overflow-x: hidden;
 }
 
-body{
-   background: #eee;
-}
+
 
 .container{
    max-width: 1200px;
@@ -26,7 +24,7 @@ body{
 
 .container .title{
    font-size: 3.5rem;
-   color:#444;
+   /* color:#444; */
    margin-bottom: 3rem;
    text-transform: uppercase;
    text-align: center;
@@ -38,7 +36,7 @@ body{
    gap:2rem;
 }
 
-.container .products-container .product{
+ .products-container .product{
    text-align: center;
    padding:3rem 2rem;
    background: #fff;
@@ -56,6 +54,10 @@ p{
    outline: .2rem solid #006EBB;
    outline-offset: 0;
 }
+.container .products-container .product:focus-within{
+   outline: .2rem solid #006EBB;
+   outline-offset: 0;
+}
 
 .container .products-container .product img{
     max-width: 100%;
@@ -64,6 +66,9 @@ p{
 }
 
 .container .products-container .product:hover img{
+   transform: scale(.9);
+}
+.container .products-container .product  a:focus img{
    transform: scale(.9);
 }
 
@@ -130,7 +135,7 @@ p{
    line-height: 1.5;
    padding:0 0;
    font-size: 1.6rem;
-   color:#777;
+   color:#444;
 }
 header{
    display: flex;
@@ -160,8 +165,10 @@ header:hover h1 {
 .menu {
             display: flex;
             justify-content: flex-end;
+            align-items: center;
             max-width: 1200px;
             margin: 0 auto;
+            background-color: #eee;
         }
 
         .menu a {
@@ -172,6 +179,7 @@ header:hover h1 {
         .menu .title span{
          font-size: 1.5em;
          margin-right: 10px;
+         cursor: pointer;
         }
         .menu .title i{
          font-size: 1.5em;
@@ -181,8 +189,16 @@ header:hover h1 {
         .menu .title {
             display: flex;
             align-items: center;
+            height: 80%;
         }
-
+        .menu .title:hover {
+            background-color: #006EBB;
+            box-shadow: 0px 0px 2px 2px #000;
+        }
+        .menu .title:focus {
+         background-color: #006EBB;
+         box-shadow: 0px 0px 2px 2px #000;
+        }
         .menu .item img {
             width: 50px;
             height: 20px;
@@ -196,6 +212,18 @@ header:hover h1 {
             background-size: cover;
             padding: 20px;
             margin: 10px;
+            height: 80%;
+        }
+        .menu .item:hover {
+         background-color: #006EBB;
+         box-shadow: 0px 0px 2px 2px #000;
+        }
+        .menu .item:focus{
+         background-color: #006EBB;
+         box-shadow: 0px 0px 2px 2px #000;
+        }
+        .menu .item .bip {
+         color:red;
         }
 
         @media (max-width: 768px) {
@@ -209,19 +237,26 @@ header:hover h1 {
                 text-align: center;
                 width: 100%;
                 padding: 15px;
-                background-color: rgba(0, 0, 0, 0.7);
             }
         }
 
         .contrast-changeable {
-            background-color: #fff; /* Domyślny kolor tła elementów z klasą .contrast-changeable */
-            color: #000; /* Domyślny kolor tekstu elementów z klasą .contrast-changeable */
+            background-color: #fff; 
+            color: #000; 
         }
 
         .high-contrast .contrast-changeable {
-            background-color: #000; /* Kolor tła elementów z klasą .contrast-changeable w trybie wysokiego kontrastu */
-            color: #fff; /* Kolor tekstu elementów z klasą .contrast-changeable w trybie wysokiego kontrastu */
+            background-color: #000;  
         }
+        .color-changeable{
+         color:#000;
+        }
+        .high-color .color-changeable{
+         color:#fff;
+        }
+        svg path {
+         fill: red;
+       }
 
 @media (max-width:991px){
 

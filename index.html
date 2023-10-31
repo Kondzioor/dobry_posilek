@@ -4,87 +4,100 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   <title>Wojewódzki Szpital Specjalistyczny w Legnicy</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-
    <link rel="stylesheet" href="css/style.css">
-
    <script src="https://kit.fontawesome.com/6940e14c0f.js" crossorigin="anonymous"></script>
    <script src="js/script.js" defer></script>
 
 </head>
 <body>
    <div class="menu contrast-changeable">
-        <a class="title font-changeable" id="fontButton" href="#">
-            <span>Większa czcionka</span>
-            <i class="fa-solid fa-font"></i>
+        <a class="title font-changeable" id="increaseFontButton"  href="#">
+            <span class="color-changeable">Większa czcionka</span>
+            <i class="fa-solid fa-font color-changeable"></i>
         </a>
-        <a class="title font-changeable" id="contrastButton" href="#">
+        <a class="title font-changeable color-changeable" id="decreaseFontButton" href="#">
+         <span>Mniejsza czcionka</span>
+         <i class="fa-solid fa-font"></i>
+         </a>
+        <a class="title font-changeable color-changeable" id="contrastButton" href="#">
             <span>Zmień kontrast</span>
             <i class="fa-solid fa-circle-half-stroke"></i>
         </a>
         <a class="item font-changeable" href="https://umwd.dolnyslask.pl/">
-            <img src="images/umwd.png" alt="Przycisk 1">
+            <img src="images/umwd.png" alt="Logo UMWD">
         </a>
-        <a class="item font-changeable" href="http://wssl.bip.gov.pl/">
-            <svg xmlns="http://www.w3.org/2000/svg" width="47.938" height="20.5" viewBox="0 0 49 20.5">
-  <path d="M515.632,18.257L526.8,29.6V18.257h-11.17Zm41.78-.007a6.144,6.144,0,0,0-6.139,6.137V32.96a1.5,1.5,0,1,0,3,0V29.635a6.065,6.065,0,0,0,3.141.893,6.139,6.139,0,0,0,0-12.278m0,9.278a3.14,3.14,0,1,1,3.141-3.141,3.143,3.143,0,0,1-3.141,3.141m-20.1-9.271a6.078,6.078,0,0,0-3.142.893V15.456a1.5,1.5,0,0,0-3,0V24.4s0,0.006,0,.01a6.139,6.139,0,1,0,6.137-6.15m0,9.28a3.14,3.14,0,1,1,3.141-3.14,3.145,3.145,0,0,1-3.141,3.14m11.538,0.152c-0.2-.1-0.815-0.411-0.815-2.794V19.768a1.5,1.5,0,1,0-3,0v5.127c0,1.816.255,4.36,2.463,5.475a1.5,1.5,0,0,0,1.349-2.681m-2.313-10.428a1.65,1.65,0,1,0-1.649-1.647,1.648,1.648,0,0,0,1.649,1.647" transform="translate(-515.625 -13.969)"></path>
+        <a class="item font-changeable color-changeable" href="http://wssl.bip.gov.pl/">
+            <svg   xmlns="http://www.w3.org/2000/svg" width="47.938" height="20.5" viewBox="0 0 49 20.5">
+            <path d="M515.632,18.257L526.8,29.6V18.257h-11.17Zm41.78-.007a6.144,6.144,0,0,0-6.139,6.137V32.96a1.5,1.5,0,1,0,3,0V29.635a6.065,6.065,0,0,0,3.141.893,6.139,6.139,0,0,0,0-12.278m0,9.278a3.14,3.14,0,1,1,3.141-3.141,3.143,3.143,0,0,1-3.141,3.141m-20.1-9.271a6.078,6.078,0,0,0-3.142.893V15.456a1.5,1.5,0,0,0-3,0V24.4s0,0.006,0,.01a6.139,6.139,0,1,0,6.137-6.15m0,9.28a3.14,3.14,0,1,1,3.141-3.14,3.145,3.145,0,0,1-3.141,3.14m11.538,0.152c-0.2-.1-0.815-0.411-0.815-2.794V19.768a1.5,1.5,0,1,0-3,0v5.127c0,1.816.255,4.36,2.463,5.475a1.5,1.5,0,0,0,1.349-2.681m-2.313-10.428a1.65,1.65,0,1,0-1.649-1.647,1.648,1.648,0,0,0,1.649,1.647" transform="translate(-515.625 -13.969)"></path>
 </svg>
         </a>
-        <a class="item font-changeable" href="https://tlumacz.migam.org/public_html/szpital_legnica">
-            <img class="migam"src="images/migam.png" alt="Przycisk 3">
+        <a class="item font-changeable color-changeable" href="https://tlumacz.migam.org/public_html/szpital_legnica">
+            <img class="migam"src="images/migam.png" alt="Logo MiGAM">
         </a>
     </div>
 <header onclick="window.location.href='https://szpital.legnica.pl';">
-   <img src="images/logo.jpg" alt="">
-   <h1>Wojewódzki Szpital Specjalistyczny
+   <img src="images/logo.jpg" alt="Logo Wojewódzkiego Szpitala Specjalistycznego w Legnicy">
+   <h1 class="font-changeable">Wojewódzki Szpital Specjalistyczny
       <br>
       w Legnicy
    </h1>
 </header>
 
-<div class="container">
+<div class="container contrast-changeable" tabindex="-1">
    <!-- nagłówek -->
-   <h3 class="title"> Dobry posiłek </h3>
+   <h3 class="title color-changeable font-changeable"> Dobry posiłek </h3>
    <!-- data -->
-   <p>data tutaj pierwsza</p>
+   <p class="contrast-changeable color-changeable font-changeable">data tutaj pierwsza</p>
    <!-- kontener ze zdjęciami na dany dzień należy go skopiować i wkleić poniżej ale tak aby zawierał się w tym głównym kontenerze powyżej -->
-   <div class="products-container">
+   <div class="products-container contrast-changeable color-changeable">
 
-      <div class="product" data-name="p-1">
-         <img src="images/1.jpg" alt="">
-         <h3>Szparagi</h3>
+      <div class="product contrast-changeable color-changeable font-changeable" data-name="p-1">
+         <a href="#">
+            <img src="images/1.jpg" alt="Danie 1">
+            <h3 class="font-changeable">Szparagi</h3>
+         </a>
       </div>
 
-      <div class="product" data-name="p-2">
-         <img src="images/2.jpg" alt="">
-         <h3>Łosoś</h3>
+      <div class="product contrast-changeable color-changeable font-changeable" data-name="p-2">
+         <a href="#">
+            <img src="images/2.jpg" alt="Danie 2">
+         <h3 class="font-changeable">Łosoś</h3>
+         </a>
       </div>
 
-      <div class="product" data-name="p-3">
-         <img src="images/3.jpg" alt="">
-         <h3>Burgerki</h3>
+      <div class="product contrast-changeable color-changeable font-changeable" data-name="p-3">
+         <a href="#">
+            <img src="images/3.jpg" alt="Danie 3">
+         <h3 class="font-changeable">Burgerki</h3>
+         </a>
       </div>
 
    </div>
    <!-- data 2 -->
-   <p>Data tutaj druga</p>
+   <p class="contrast-changeable color-changeable font-changeable">Data tutaj druga</p>
    <!-- drugi kontener jakby kopia -->
    <div class="products-container">
-      <div class="product" data-name="p-4">
-         <img src="images/4.jpg" alt="">
-         <h3>Omlety</h3>
+      <div class="product contrast-changeable color-changeable font-changeable" data-name="p-4">
+         <a href="#">
+            <img src="images/4.jpg" alt="Danie 4" >
+            <h3 class="font-changeable">Omlety</h3>
+         </a>
       </div>
 
-      <div class="product" data-name="p-5">
-         <img src="images/5.jpg" alt="">
-         <h3>Naleśniki</h3>
+      <div class="product contrast-changeable color-changeable font-changeable" data-name="p-5">
+         <a href="#">
+            <img src="images/5.jpg" alt="Danie 5" >
+            <h3 class="font-changeable">Naleśniki</h3>
+         </a>
       </div>
 
-      <div class="product" data-name="p-6">
-         <img src="images/6.jpg" alt="">
-         <h3>Rybcia</h3>
+      <div class="product contrast-changeable color-changeable font-changeable" data-name="p-6">
+         <a href="#">
+            <img src="images/6.jpg" alt="Danie 6">
+            <h3 class="font-changeable">Rybcia</h3>
+         </a>
       </div>
    </div>
 
@@ -92,54 +105,54 @@
 <!-- kontener dla zdjęć (poupup) -->
 <div class="products-preview">
    <!-- pojedynczy element  -->
-   <div class="preview" data-target="p-1">   <!-- data-target musi być taka sama jak data-name powyżej aby skrypt wiedział co zostało naciśnięte i co ma wyświetlić  -->
+   <div class="preview " data-target="p-1">   <!-- data-target musi być taka sama jak data-name powyżej aby skrypt wiedział co zostało naciśnięte i co ma wyświetlić  -->
       <i class="fas fa-times"></i>
-      <img src="images/1.jpg" alt="">
+      <img src="images/1.jpg" alt="Danie 1">
       <h3>Szparagi pierwsza klassa</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
    </div>
    <!-- analogicznie, tyle ile elementów dodamy powyżej w product container tyle musimy dodać poniżej   -->
-   <div class="preview" data-target="p-2">
+   <div class="preview " data-target="p-2">
       <i class="fas fa-times"></i>
-      <img src="images/2.jpg" alt="">
+      <img src="images/2.jpg" alt="Danie 2">
       <h3>Łosoś</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
    </div>
 
-   <div class="preview" data-target="p-3">
+   <div class="preview " data-target="p-3">
       <i class="fas fa-times"></i>
-      <img src="images/3.jpg" alt="">
+      <img src="images/3.jpg" alt="Danie 3">
       <h3>organic tomatoes</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
    </div>
 
-   <div class="preview" data-target="p-4">
+   <div class="preview " data-target="p-4">
       <i class="fas fa-times"></i>
-      <img src="images/4.jpg" alt="">
+      <img src="images/4.jpg" alt="Danie 4">
       <h3>organic brinjal</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
    </div>
 
-   <div class="preview" data-target="p-5">
+   <div class="preview " data-target="p-5">
       <i class="fas fa-times"></i>
-      <img src="images/5.jpg" alt="">
+      <img src="images/5.jpg" alt="Danie 5">
       <h3>organic broccoli</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
    </div>
 
-   <div class="preview" data-target="p-6">
+   <div class="preview " data-target="p-6">
       <i class="fas fa-times"></i>
-      <img src="images/6.jpg" alt="">
+      <img src="images/6.jpg" alt="Danie 6">
       <h3>organic potatoes</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>

@@ -31,34 +31,40 @@ document.addEventListener('keydown', (event) => {
 });
 
 
-const fontButton = document.getElementById('fontButton');
-        const fontChangeableElements = document.querySelectorAll('.font-changeable');
-        let fontSizeState = 0; // 0: domyślny rozmiar, 1: większy rozmiar, 2: największy rozmiar
+const increaseFontButton = document.getElementById('increaseFontButton');
+const decreaseFontButton = document.getElementById('decreaseFontButton');
+const fontChangeableElements = document.querySelectorAll('.font-changeable');
+let fontSizeMultiplier = 1.0;
+let increaseClicks = 0;
+let decreaseClicks = 0;
 
-        fontButton.addEventListener('click', () => {
-            fontSizeState = (fontSizeState + 1) % 3;
+increaseFontButton.addEventListener('click', () => {
+  increaseClicks++;
+  if (increaseClicks % 2 === 1) {
+    fontSizeMultiplier = 1.2;
+  } else {
+    fontSizeMultiplier = 1.0;
+  }
+  updateFontSizes();
+});
 
-            switch (fontSizeState) {
-                case 0:
-                    fontChangeableElements.forEach(element => {
-                        element.style.fontSize = '16px';
-                    });
-                    fontButton.textContent = 'Większa czcionka';
-                    break;
-                case 1:
-                    fontChangeableElements.forEach(element => {
-                        element.style.fontSize = '20px';
-                    });
-                    fontButton.textContent = 'Największa czcionka';
-                    break;
-                case 2:
-                    fontChangeableElements.forEach(element => {
-                        element.style.fontSize = '24px';
-                    });
-                    fontButton.textContent = 'Czcionka domyślna';
-                    break;
-            }
-        });
+decreaseFontButton.addEventListener('click', () => {
+  decreaseClicks++;
+  if (decreaseClicks % 2 === 1) {
+    fontSizeMultiplier = 1 / 1.2;
+  } else {
+    fontSizeMultiplier = 1.0;
+  }
+  updateFontSizes();
+});
+
+function updateFontSizes() {
+  fontChangeableElements.forEach(element => {
+    const currentFontSize = window.getComputedStyle(element, null).getPropertyValue('font-size');
+    const currentSize = parseFloat(currentFontSize);
+    element.style.fontSize = (currentSize * fontSizeMultiplier) + 'px';
+  });
+}
 
 const contrastButton = document.getElementById('contrastButton');
         let isHighContrast = false;
@@ -66,16 +72,30 @@ const contrastButton = document.getElementById('contrastButton');
         contrastButton.addEventListener('click', () => {
             isHighContrast = !isHighContrast;
             const contrastChangeableElements = document.querySelectorAll('.contrast-changeable');
+            const colorChangeableElements = document.querySelectorAll('.color-changeable')
+            const svgPath = document.querySelector("svg path");
 
             if (isHighContrast) {
-                document.body.classList.add('high-contrast'); /* Dodaj klasę do body, aby zmienić kontrast dla elementów z klasą .contrast-changeable */
+              document.body.style.backgroundColor = 'black';
+              
+                document.body.classList.add('high-contrast');
+                document.body.classList.add('high-color'); 
                 contrastChangeableElements.forEach(element => {
                     element.classList.add('high-contrast');
                 });
+                colorChangeableElements.forEach(element => {
+                  element.classList.add('high-color')
+                });
             } else {
-                document.body.classList.remove('high-contrast'); /* Usuń klasę, aby przywrócić domyślny kontrast */
+              
+              document.body.style.backgroundColor = 'white';
+                document.body.classList.remove('high-contrast'); 
+                document.body.classList.remove('high-color');
                 contrastChangeableElements.forEach(element => {
                     element.classList.remove('high-contrast');
+                });
+                colorChangeableElements.forEach(element => {
+                  element.classList.remove('high-color')
                 });
             }
         });
