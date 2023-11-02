@@ -4,6 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="images/favicon.png" type="image/x-icon">
    <title>Wojewódzki Szpital Specjalistyczny w Legnicy</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
    <link rel="stylesheet" href="css/style.css">
@@ -49,56 +50,28 @@
    <!-- nagłówek -->
    <h3 class="title color-changeable font-changeable"> Dobry posiłek </h3>
    <!-- data -->
-   <p class="contrast-changeable color-changeable font-changeable">data tutaj pierwsza</p>
+   <p class="contrast-changeable color-changeable font-changeable">02.11.2023r.</p>
    <!-- kontener ze zdjęciami na dany dzień należy go skopiować i wkleić poniżej ale tak aby zawierał się w tym głównym kontenerze powyżej -->
    <div class="products-container contrast-changeable color-changeable">
 
       <div class="product contrast-changeable color-changeable font-changeable" data-name="p-1">
          <a href="#">
-            <img src="images/1.jpg" alt="Danie 1">
-            <h3 class="font-changeable">Szparagi</h3>
+            <img src="images/20231102_sniadanie.jpg" alt="Śniadanie dieta łatwostrawna">
+            <h3 class="font-changeable">Śniadanie + II śniadanie</h3>
+            <p class="description">Dieta łatwostrawna</p>
          </a>
       </div>
 
       <div class="product contrast-changeable color-changeable font-changeable" data-name="p-2">
          <a href="#">
-            <img src="images/2.jpg" alt="Danie 2">
-         <h3 class="font-changeable">Łosoś</h3>
+            <img src="images/20231102_sniadanie2.jpg" alt="Śniadanie dieta podstawowa">
+         <h3 class="font-changeable">Śniadanie + II śniadanie</h3>
+         <p class="description">Dieta podstawowa</p>
          </a>
       </div>
 
-      <div class="product contrast-changeable color-changeable font-changeable" data-name="p-3">
-         <a href="#">
-            <img src="images/3.jpg" alt="Danie 3">
-         <h3 class="font-changeable">Burgerki</h3>
-         </a>
-      </div>
+     
 
-   </div>
-   <!-- data 2 -->
-   <p class="contrast-changeable color-changeable font-changeable">Data tutaj druga</p>
-   <!-- drugi kontener jakby kopia -->
-   <div class="products-container">
-      <div class="product contrast-changeable color-changeable font-changeable" data-name="p-4">
-         <a href="#">
-            <img src="images/4.jpg" alt="Danie 4" >
-            <h3 class="font-changeable">Omlety</h3>
-         </a>
-      </div>
-
-      <div class="product contrast-changeable color-changeable font-changeable" data-name="p-5">
-         <a href="#">
-            <img src="images/5.jpg" alt="Danie 5" >
-            <h3 class="font-changeable">Naleśniki</h3>
-         </a>
-      </div>
-
-      <div class="product contrast-changeable color-changeable font-changeable" data-name="p-6">
-         <a href="#">
-            <img src="images/6.jpg" alt="Danie 6">
-            <h3 class="font-changeable">Rybcia</h3>
-         </a>
-      </div>
    </div>
 
 </div>
@@ -107,56 +80,44 @@
    <!-- pojedynczy element  -->
    <div class="preview " data-target="p-1">   <!-- data-target musi być taka sama jak data-name powyżej aby skrypt wiedział co zostało naciśnięte i co ma wyświetlić  -->
       <i class="fas fa-times"></i>
-      <img src="images/1.jpg" alt="Danie 1">
-      <h3>Szparagi pierwsza klassa</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <img src="images/20231102_sniadanie.jpg" alt="Śniadanie dieta łatwostrawna">
+      <h3>Dieta łatwostrawna</h3>
+      <p>Zupa mleczna z kaszą
+         kukurydzianą(400ml) , Herbata (200ml) ,
+         Bułka pszenna (60g) , Masło ekstra (10g)
+         , Twaróg chudy 60g) , Jabłko pieczone
+         (1szt.-120g) ,
+         II Śniadanie:
+         Chleb tostowy (1 kromka)(40g) , Masło
+         ekstra (5g) , Jajo gotowane na miękko
+         (55g) , Pomidorki koktajlowe (45g -ok.4
+         szt.), Zupa ryżowa z kalafiorem z zieloną
+         pietruszką nać (400ml) , Schab
+         gotowany(65g) , Sos potrawkowy (80ml)
+         , Kasza jęczmienna (180g) , Szpinak na
+         gęsto(150g) , Kompot z owoców (200ml).
+       </p>
    </div>
    <!-- analogicznie, tyle ile elementów dodamy powyżej w product container tyle musimy dodać poniżej   -->
    <div class="preview " data-target="p-2">
       <i class="fas fa-times"></i>
-      <img src="images/2.jpg" alt="Danie 2">
-      <h3>Łosoś</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-   </div>
-
-   <div class="preview " data-target="p-3">
-      <i class="fas fa-times"></i>
-      <img src="images/3.jpg" alt="Danie 3">
-      <h3>organic tomatoes</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-   </div>
-
-   <div class="preview " data-target="p-4">
-      <i class="fas fa-times"></i>
-      <img src="images/4.jpg" alt="Danie 4">
-      <h3>organic brinjal</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-   </div>
-
-   <div class="preview " data-target="p-5">
-      <i class="fas fa-times"></i>
-      <img src="images/5.jpg" alt="Danie 5">
-      <h3>organic broccoli</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-   </div>
-
-   <div class="preview " data-target="p-6">
-      <i class="fas fa-times"></i>
-      <img src="images/6.jpg" alt="Danie 6">
-      <h3>organic potatoes</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <img src="images/20231102_sniadanie2.jpg" alt="Śniadanie dieta podstawowa">
+      <h3>Dieta podstawowa</h3>
+      <p>Zupa mleczna z kaszą
+         kukurydzianą(400ml) , Herbata (200ml) ,
+         Bułka grahamka ( 60g ) , Masło ekstra
+         (10g) , Kiełbasa krakowska (50g) ,
+         Ogórek kiszony(50g) ,
+         II Śniadanie:
+         Chleb pszenno - żytni (1 kromka)(35g) ,
+         Masło ekstra (5g) , Jajo gotowane na
+         miękko (55g) , Pomidorki koktajlowe
+         (45g -ok.4 szt.), Zupa żurek z ziemniakami(400ml) ,
+         Karkówka w sosie własnym (50g/80ml) ,
+         Kasza jęczmienna (180g) , Kapusta
+         czerwona zasmażana(150g) , Kompot z
+         owoców (200ml).
+       </p>
    </div>
 
 </div>
