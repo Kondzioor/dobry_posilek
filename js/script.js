@@ -77,9 +77,9 @@ const contrastButton = document.getElementById('contrastButton');
 
             if (isHighContrast) {
               document.body.style.backgroundColor = 'black';
-              
+
                 document.body.classList.add('high-contrast');
-                document.body.classList.add('high-color'); 
+                document.body.classList.add('high-color');
                 contrastChangeableElements.forEach(element => {
                     element.classList.add('high-contrast');
                 });
@@ -87,9 +87,9 @@ const contrastButton = document.getElementById('contrastButton');
                   element.classList.add('high-color')
                 });
             } else {
-              
+
               document.body.style.backgroundColor = 'white';
-                document.body.classList.remove('high-contrast'); 
+                document.body.classList.remove('high-contrast');
                 document.body.classList.remove('high-color');
                 contrastChangeableElements.forEach(element => {
                     element.classList.remove('high-contrast');
@@ -99,3 +99,21 @@ const contrastButton = document.getElementById('contrastButton');
                 });
             }
         });
+
+// -----------------------------------------------------------------------
+const quest = document.querySelectorAll(".question");
+const photos = document.querySelector(".show-section")
+const quest1 = document.querySelectorAll(".question1");
+const photos1 = document.querySelector(".show-section1")
+quest.forEach((q) => {
+    q.addEventListener("click", () =>{
+        q.classList.toggle("active");
+        photos.classList.toggle("show")
+    })
+})
+quest1.forEach((q1) => {
+    q1.addEventListener("click", () =>{
+        q1.classList.toggle("active");
+        photos1.classList.toggle("show")
+    })
+})

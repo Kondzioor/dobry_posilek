@@ -37,6 +37,7 @@ html{
    margin-top: 20px;
 }
 
+
  .products-container .product{
    text-align: center;
    padding:3rem 2rem;
@@ -46,10 +47,10 @@ html{
    outline-offset: -1.5rem;
    /* cursor: pointer; */
 }
-p{
+/* p{
    padding: 25px;
    font-size: 2rem;
-}
+} */
 
 .container .products-container .product:hover{
    outline: .2rem solid #006EBB;
@@ -246,12 +247,12 @@ header:hover h1 {
         }
 
         .contrast-changeable {
-            background-color: #fff; 
-            color: #000; 
+            background-color: #fff;
+            color: #000;
         }
 
         .high-contrast .contrast-changeable {
-            background-color: #000;  
+            background-color: #000;
         }
         .color-changeable{
          color:#000;
@@ -285,4 +286,66 @@ header:hover h1 {
       font-size: 50%;
    }
 
+}
+
+/* ------------------------------------------------------------------- */
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1210px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.question:hover{
+   color: #006EBB;
+}
+.question h3 {
+    font-size: 1.8rem;
+}
+.question i {
+   margin-right: 10px;
+   font-size: 2rem;
+}
+.question.active i {
+    transform: rotate(180deg);
+}
+/* =----------------------- */
+.question1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1210px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.question1:hover{
+   color: #006EBB;
+}
+.question1 h3 {
+    font-size: 1.8rem;
+}
+.question1 i {
+   margin-right: 10px;
+   font-size: 2rem;
+}
+.question1.active i {
+    transform: rotate(180deg);
+}
+
+
+.container .show-section {
+   display: none;
+}
+.container .show-section1 {
+   display: none;
+}
+
+.container .show{
+   max-height: 100%;
+   display: block;
 }
