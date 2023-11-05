@@ -10,7 +10,7 @@
 }
 
 html{
-   font-size: 62.5%;
+   font-size: 60%;
    overflow-x: hidden;
 }
 
@@ -47,10 +47,10 @@ html{
    outline-offset: -1.5rem;
    /* cursor: pointer; */
 }
-/* p{
+p{
    padding: 25px;
    font-size: 2rem;
-} */
+}
 
 .container .products-container .product:hover{
    outline: .2rem solid #006EBB;
@@ -259,6 +259,7 @@ header:hover h1 {
         }
         .high-color .color-changeable{
          color:#fff;
+         border-color: white;
         }
         svg path {
          fill: red;
@@ -298,8 +299,13 @@ header:hover h1 {
     padding-bottom: 1rem;
     border-bottom: 2px solid black;
     cursor: pointer;
+    text-decoration: none;
+  color: #000;
 }
 .question:hover{
+   color: #006EBB;
+}
+.question:focus{
    color: #006EBB;
 }
 .question h3 {
@@ -322,9 +328,12 @@ header:hover h1 {
     padding-bottom: 1rem;
     border-bottom: 2px solid black;
     cursor: pointer;
+    text-decoration: none;
+   color: #000;
 }
 .question1:hover{
    color: #006EBB;
+
 }
 .question1 h3 {
     font-size: 1.8rem;
@@ -332,6 +341,9 @@ header:hover h1 {
 .question1 i {
    margin-right: 10px;
    font-size: 2rem;
+}
+.question1:focus {
+   color: #006EBB;
 }
 .question1.active i {
     transform: rotate(180deg);
