@@ -103,10 +103,16 @@ const contrastButton = document.getElementById('contrastButton');
 // -----------------------------------------------------------------------
 const quest = document.querySelectorAll(".question");
 const photos = document.querySelector(".show-section")
+
 const quest1 = document.querySelectorAll(".question1");
 const photos1 = document.querySelector(".show-section1")
+
 const quest2 = document.querySelectorAll(".question2");
 const photos2 = document.querySelector(".show-section2")
+
+const quest3 = document.querySelectorAll(".question3");
+const photos3 = document.querySelector(".show-section3")
+
 quest.forEach((q) => {
     q.addEventListener("click", () =>{
         q.classList.toggle("active");
@@ -123,5 +129,11 @@ quest2.forEach((q2) => {
   q2.addEventListener("click", () =>{
       q2.classList.toggle("active");
       photos2.classList.toggle("show")
+  })
+})
+quest3.forEach((q3) => {
+  q3.addEventListener("click", () =>{
+      q3.classList.toggle("active");
+      photos3.classList.toggle("show")
   })
 })
