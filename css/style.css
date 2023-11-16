@@ -554,6 +554,93 @@ header:hover h1 {
    transform: rotate(180deg);
 }
 /* -------------------------------------------------------- */
+.question9 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question9:hover{
+  color: #006EBB;
+}
+.question9:focus{
+  color: #006EBB;
+}
+.question9 h3 {
+   font-size: 1.8rem;
+}
+.question9 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question9.active i {
+   transform: rotate(180deg);
+}
+/* --------------------------------------------------------- */
+.question10 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question10:hover{
+  color: #006EBB;
+}
+.question10:focus{
+  color: #006EBB;
+}
+.question10 h3 {
+   font-size: 1.8rem;
+}
+.question10 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question10.active i {
+   transform: rotate(180deg);
+}
+/* ------------------------------------------------------------ */
+.question11 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question11:hover{
+  color: #006EBB;
+}
+.question11:focus{
+  color: #006EBB;
+}
+.question11 h3 {
+   font-size: 1.8rem;
+}
+.question11 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question11.active i {
+   transform: rotate(180deg);
+}
+/* ------------------------------------------------------------ */
 .container .show-section {
    display: none;
 }
@@ -579,6 +666,15 @@ header:hover h1 {
    display: none;
 }
 .container .show-section8 {
+   display: none;
+}
+.container .show-section9 {
+   display: none;
+}
+.container .show-section10 {
+   display: none;
+}
+.container .show-section11 {
    display: none;
 }
 .container .show{
