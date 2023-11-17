@@ -137,6 +137,9 @@ const photos10 = document.querySelector(".show-section10")
 const quest11 = document.querySelectorAll(".question11");
 const photos11 = document.querySelector(".show-section11")
 
+const quest12 = document.querySelectorAll(".question12");
+const photos12 = document.querySelector(".show-section12")
+
 quest.forEach((q) => {
     q.addEventListener("click", () =>{
         q.classList.toggle("active");
@@ -207,5 +210,11 @@ quest11.forEach((q11) => {
   q11.addEventListener("click", () =>{
       q11.classList.toggle("active");
       photos11.classList.toggle("show")
+  })
+})
+quest12.forEach((q12) => {
+  q12.addEventListener("click", () =>{
+      q12.classList.toggle("active");
+      photos12.classList.toggle("show")
   })
 })
