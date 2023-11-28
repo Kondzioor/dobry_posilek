@@ -728,6 +728,180 @@ header:hover h1 {
    transform: rotate(180deg);
 }
 /* -------------------------------------------------------------- */
+.question15 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question15.container{
+  color: #006EBB;
+}
+.question15:focus{
+  color: #006EBB;
+}
+.question15 h3 {
+   font-size: 1.8rem;
+}
+.question15 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question15.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
+.question16 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question16.container{
+  color: #006EBB;
+}
+.question16:focus{
+  color: #006EBB;
+}
+.question16 h3 {
+   font-size: 1.8rem;
+}
+.question16 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question16.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
+.question17 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question17.container{
+  color: #006EBB;
+}
+.question17:focus{
+  color: #006EBB;
+}
+.question17 h3 {
+   font-size: 1.8rem;
+}
+.question17 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question17.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
+.question18 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question18.container{
+  color: #006EBB;
+}
+.question18:focus{
+  color: #006EBB;
+}
+.question18 h3 {
+   font-size: 1.8rem;
+}
+.question18 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question18.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
+.question19 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question19.container{
+  color: #006EBB;
+}
+.question19:focus{
+  color: #006EBB;
+}
+.question19 h3 {
+   font-size: 1.8rem;
+}
+.question19 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question19.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
+.question20 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question20.container{
+  color: #006EBB;
+}
+.question20:focus{
+  color: #006EBB;
+}
+.question20 h3 {
+   font-size: 1.8rem;
+}
+.question20 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question20.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
 .container .show-section {
    display: none;
 }
@@ -771,6 +945,24 @@ header:hover h1 {
    display: none;
 }
 .container .show-section14 {
+   display: none;
+}
+.container .show-section15 {
+   display: none;
+}
+.container .show-section16 {
+   display: none;
+}
+.container .show-section17 {
+   display: none;
+}
+.container .show-section18 {
+   display: none;
+}
+.container .show-section19 {
+   display: none;
+}
+.container .show-section20 {
    display: none;
 }
 .container .show{

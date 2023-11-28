@@ -146,6 +146,24 @@ const photos13 = document.querySelector(".show-section13")
 const quest14 = document.querySelectorAll(".question14");
 const photos14 = document.querySelector(".show-section14")
 
+const quest15 = document.querySelectorAll(".question15");
+const photos15 = document.querySelector(".show-section15")
+
+const quest16 = document.querySelectorAll(".question16");
+const photos16 = document.querySelector(".show-section16")
+
+const quest17 = document.querySelectorAll(".question17");
+const photos17 = document.querySelector(".show-section17")
+
+const quest18 = document.querySelectorAll(".question18");
+const photos18 = document.querySelector(".show-section18")
+
+const quest19 = document.querySelectorAll(".question19");
+const photos19 = document.querySelector(".show-section19")
+
+const quest20 = document.querySelectorAll(".question20");
+const photos20 = document.querySelector(".show-section20")
+
 
 quest.forEach((q) => {
     q.addEventListener("click", () =>{
@@ -235,5 +253,41 @@ quest14.forEach((q14) => {
   q14.addEventListener("click", () =>{
       q14.classList.toggle("active");
       photos14.classList.toggle("show")
+  })
+})
+quest15.forEach((q15) => {
+  q15.addEventListener("click", () =>{
+      q15.classList.toggle("active");
+      photos15.classList.toggle("show")
+  })
+})
+quest16.forEach((q16) => {
+  q16.addEventListener("click", () =>{
+      q16.classList.toggle("active");
+      photos16.classList.toggle("show")
+  })
+})
+quest17.forEach((q17) => {
+  q17.addEventListener("click", () =>{
+      q17.classList.toggle("active");
+      photos17.classList.toggle("show")
+  })
+})
+quest18.forEach((q18) => {
+  q18.addEventListener("click", () =>{
+      q18.classList.toggle("active");
+      photos18.classList.toggle("show")
+  })
+})
+quest19.forEach((q19) => {
+  q19.addEventListener("click", () =>{
+      q19.classList.toggle("active");
+      photos19.classList.toggle("show")
+  })
+})
+quest20.forEach((q20) => {
+  q20.addEventListener("click", () =>{
+      q20.classList.toggle("active");
+      photos20.classList.toggle("show")
   })
 })
