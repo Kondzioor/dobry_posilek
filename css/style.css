@@ -902,6 +902,35 @@ header:hover h1 {
    transform: rotate(180deg);
 }
 /* -------------------------------------------------------------- */
+.question21 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question21.container{
+  color: #006EBB;
+}
+.question21:focus{
+  color: #006EBB;
+}
+.question21 h3 {
+   font-size: 1.8rem;
+}
+.question21 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question21.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
 .container .show-section {
    display: none;
 }
@@ -963,6 +992,9 @@ header:hover h1 {
    display: none;
 }
 .container .show-section20 {
+   display: none;
+}
+.container .show-section21 {
    display: none;
 }
 .container .show{
