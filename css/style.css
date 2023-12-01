@@ -214,8 +214,8 @@ header:hover h1 {
          width: 40px;
         }
         .menu .item {
-            background-image: url('button.jpg');
-            background-size: cover;
+            /* background-image: url('button.jpg');
+            background-size: cover; */
             padding: 20px;
             margin: 10px;
             height: 80%;
@@ -912,7 +912,7 @@ header:hover h1 {
    border-bottom: 2px solid black;
    cursor: pointer;
    text-decoration: none;
- color: #000;
+   color: #000;
 }
 .question21.container{
   color: #006EBB;
@@ -928,6 +928,64 @@ header:hover h1 {
   font-size: 2rem;
 }
 .question21.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
+.question22 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question22.container{
+  color: #006EBB;
+}
+.question22:focus{
+  color: #006EBB;
+}
+.question22 h3 {
+   font-size: 1.8rem;
+}
+.question22 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question22.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
+.question23 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question23.container{
+  color: #006EBB;
+}
+.question23:focus{
+  color: #006EBB;
+}
+.question23 h3 {
+   font-size: 1.8rem;
+}
+.question23 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question23.active i {
    transform: rotate(180deg);
 }
 /* -------------------------------------------------------------- */
@@ -995,6 +1053,12 @@ header:hover h1 {
    display: none;
 }
 .container .show-section21 {
+   display: none;
+}
+.container .show-section22 {
+   display: none;
+}
+.container .show-section23 {
    display: none;
 }
 .container .show{
