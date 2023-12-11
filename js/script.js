@@ -173,6 +173,23 @@ const photos22 = document.querySelector(".show-section22")
 const quest23 = document.querySelectorAll(".question23");
 const photos23 = document.querySelector(".show-section23")
 
+const quest24 = document.querySelectorAll(".question24");
+const photos24 = document.querySelector(".show-section24")
+
+const quest25 = document.querySelectorAll(".question25");
+const photos25 = document.querySelector(".show-section25")
+
+const quest26 = document.querySelectorAll(".question26");
+const photos26 = document.querySelector(".show-section26")
+
+const quest27 = document.querySelectorAll(".question27");
+const photos27 = document.querySelector(".show-section27")
+
+const quest28 = document.querySelectorAll(".question28");
+const photos28 = document.querySelector(".show-section28")
+
+const quest29 = document.querySelectorAll(".question29");
+const photos29 = document.querySelector(".show-section29")
 
 quest.forEach((q) => {
     q.addEventListener("click", () =>{
@@ -316,5 +333,42 @@ quest23.forEach((q23) => {
   q23.addEventListener("click", () =>{
       q23.classList.toggle("active");
       photos23.classList.toggle("show")
+  })
+})
+quest24.forEach((q24) => {
+  q24.addEventListener("click", () =>{
+      q24.classList.toggle("active");
+      photos24.classList.toggle("show")
+  })
+})
+quest25.forEach((q25) => {
+  q25.addEventListener("click", () =>{
+      q25.classList.toggle("active");
+      photos25.classList.toggle("show")
+  })
+})
+quest26.forEach((q26) => {
+  q26.addEventListener("click", () =>{
+      q26.classList.toggle("active");
+      photos26.classList.toggle("show")
+  })
+})
+quest27.forEach((q27) => {
+  q27.addEventListener("click", () =>{
+      q27.classList.toggle("active");
+      photos27.classList.toggle("show")
+  })
+})
+quest28.forEach((q28) => {
+  q28.addEventListener("click", () =>{
+      q28.classList.toggle("active");
+      photos28.classList.toggle("show")
+  })
+})
+
+quest29.forEach((q29) => {
+  q29.addEventListener("click", () =>{
+      q29.classList.toggle("active");
+      photos29.classList.toggle("show")
   })
 })
