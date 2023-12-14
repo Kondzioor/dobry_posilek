@@ -1163,6 +1163,93 @@ header:hover h1 {
    transform: rotate(180deg);
 }
 /* -------------------------------------------------------------- */
+.question30 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question30.container{
+  color: #006EBB;
+}
+.question30:focus{
+  color: #006EBB;
+}
+.question30 h3 {
+   font-size: 1.8rem;
+}
+.question30 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question30.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
+.question31 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question31.container{
+  color: #006EBB;
+}
+.question31:focus{
+  color: #006EBB;
+}
+.question31 h3 {
+   font-size: 1.8rem;
+}
+.question31 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question31.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
+.question32 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+ color: #000;
+}
+.question32.container{
+  color: #006EBB;
+}
+.question32:focus{
+  color: #006EBB;
+}
+.question32 h3 {
+   font-size: 1.8rem;
+}
+.question32 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question32.active i {
+   transform: rotate(180deg);
+}
+/* -------------------------------------------------------------- */
 .container .show-section {
    display: none;
 }
@@ -1251,6 +1338,15 @@ header:hover h1 {
    display: none;
 }
 .container .show-section29 {
+   display: none;
+}
+.container .show-section30 {
+   display: none;
+}
+.container .show-section31 {
+   display: none;
+}
+.container .show-section32 {
    display: none;
 }
 .container .show{
