@@ -200,6 +200,38 @@ const photos31 = document.querySelector(".show-section31")
 const quest32 = document.querySelectorAll(".question32");
 const photos32 = document.querySelector(".show-section32")
 
+const quest33 = document.querySelectorAll(".question33");
+const photos33 = document.querySelector(".show-section33")
+
+const quest34 = document.querySelectorAll(".question34");
+const photos34 = document.querySelector(".show-section34")
+
+const quest35 = document.querySelectorAll(".question35");
+const photos35 = document.querySelector(".show-section35")
+
+const quest36 = document.querySelectorAll(".question36");
+const photos36 = document.querySelector(".show-section36")
+
+const quest37 = document.querySelectorAll(".question37");
+const photos37 = document.querySelector(".show-section37")
+
+const quest38 = document.querySelectorAll(".question38");
+const photos38 = document.querySelector(".show-section38")
+
+const quest39 = document.querySelectorAll(".question39");
+const photos39 = document.querySelector(".show-section39")
+
+const quest40 = document.querySelectorAll(".question40");
+const photos40 = document.querySelector(".show-section40")
+
+const quest41 = document.querySelectorAll(".question41");
+const photos41 = document.querySelector(".show-section41")
+
+const quest42 = document.querySelectorAll(".question42");
+const photos42 = document.querySelector(".show-section42")
+const quest43 = document.querySelectorAll(".question43");
+const photos43 = document.querySelector(".show-section43")
+
 quest.forEach((q) => {
     q.addEventListener("click", () =>{
         q.classList.toggle("active");
@@ -399,5 +431,81 @@ quest32.forEach((q32) => {
   q32.addEventListener("click", () =>{
       q32.classList.toggle("active");
       photos32.classList.toggle("show");
+  })
+})
+
+quest33.forEach((q33) => {
+  q33.addEventListener("click", () =>{
+      q33.classList.toggle("active");
+      photos33.classList.toggle("show");
+  })
+})
+
+quest34.forEach((q34) => {
+  q34.addEventListener("click", () =>{
+      q34.classList.toggle("active");
+      photos34.classList.toggle("show");
+  })
+})
+
+quest35.forEach((q35) => {
+  q35.addEventListener("click", () =>{
+      q35.classList.toggle("active");
+      photos35.classList.toggle("show");
+  })
+})
+
+quest36.forEach((q36) => {
+  q36.addEventListener("click", () =>{
+      q36.classList.toggle("active");
+      photos36.classList.toggle("show");
+  })
+})
+
+quest37.forEach((q37) => {
+  q37.addEventListener("click", () =>{
+      q37.classList.toggle("active");
+      photos37.classList.toggle("show");
+  })
+})
+
+quest38.forEach((q38) => {
+  q38.addEventListener("click", () =>{
+      q38.classList.toggle("active");
+      photos38.classList.toggle("show");
+  })
+})
+
+quest39.forEach((q39) => {
+  q39.addEventListener("click", () =>{
+      q39.classList.toggle("active");
+      photos39.classList.toggle("show");
+  })
+})
+
+quest40.forEach((q40) => {
+  q40.addEventListener("click", () =>{
+      q40.classList.toggle("active");
+      photos40.classList.toggle("show");
+  })
+})
+
+quest41.forEach((q41) => {
+  q41.addEventListener("click", () =>{
+      q41.classList.toggle("active");
+      photos41.classList.toggle("show");
+  })
+})
+
+quest42.forEach((q42) => {
+  q42.addEventListener("click", () =>{
+      q42.classList.toggle("active");
+      photos42.classList.toggle("show");
+  })
+})
+quest43.forEach((q43) => {
+  q43.addEventListener("click", () =>{
+      q43.classList.toggle("active");
+      photos43.classList.toggle("show");
   })
 })
