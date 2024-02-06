@@ -231,6 +231,74 @@ const quest42 = document.querySelectorAll(".question42");
 const photos42 = document.querySelector(".show-section42")
 const quest43 = document.querySelectorAll(".question43");
 const photos43 = document.querySelector(".show-section43")
+const quest44 = document.querySelectorAll(".question44");
+const photos44 = document.querySelector(".show-section44")
+
+const quest45 = document.querySelectorAll(".question45");
+const photos45 = document.querySelector(".show-section45")
+
+const quest46 = document.querySelectorAll(".question46");
+const photos46 = document.querySelector(".show-section46")
+
+const quest47 = document.querySelectorAll(".question47");
+const photos47 = document.querySelector(".show-section47")
+
+const quest48 = document.querySelectorAll(".question48");
+const photos48 = document.querySelector(".show-section48")
+
+const quest49 = document.querySelectorAll(".question49");
+const photos49 = document.querySelector(".show-section49")
+
+const quest50 = document.querySelectorAll(".question50");
+const photos50 = document.querySelector(".show-section50")
+const quest51 = document.querySelectorAll(".question51");
+const photos51 = document.querySelector(".show-section51")
+
+const quest52 = document.querySelectorAll(".question52");
+const photos52 = document.querySelector(".show-section52")
+
+const quest53 = document.querySelectorAll(".question53");
+const photos53 = document.querySelector(".show-section53")
+
+const quest54 = document.querySelectorAll(".question54");
+const photos54 = document.querySelector(".show-section54")
+
+const quest55 = document.querySelectorAll(".question55");
+const photos55 = document.querySelector(".show-section55")
+
+const quest56 = document.querySelectorAll(".question56");
+const photos56 = document.querySelector(".show-section56")
+
+const quest57 = document.querySelectorAll(".question57");
+const photos57 = document.querySelector(".show-section57")
+
+const quest58 = document.querySelectorAll(".question58");
+const photos58 = document.querySelector(".show-section58")
+const quest59 = document.querySelectorAll(".question59");
+const photos59 = document.querySelector(".show-section59")
+const quest60 = document.querySelectorAll(".question60");
+const photos60 = document.querySelector(".show-section60")
+
+const quest61 = document.querySelectorAll(".question61");
+const photos61 = document.querySelector(".show-section61")
+const quest62 = document.querySelectorAll(".question62");
+const photos62 = document.querySelector(".show-section62")
+const quest63 = document.querySelectorAll(".question63");
+const photos63 = document.querySelector(".show-section63")
+const quest64 = document.querySelectorAll(".question64");
+const photos64 = document.querySelector(".show-section64")
+
+const quest65 = document.querySelectorAll(".question65");
+const photos65 = document.querySelector(".show-section65")
+const quest66 = document.querySelectorAll(".question66");
+const photos66 = document.querySelector(".show-section66")
+
+const quest67 = document.querySelectorAll(".question67");
+const photos67 = document.querySelector(".show-section67")
+const quest68 = document.querySelectorAll(".question68");
+const photos68 = document.querySelector(".show-section68")
+const quest69 = document.querySelectorAll(".question69");
+const photos69 = document.querySelector(".show-section69")
 
 quest.forEach((q) => {
     q.addEventListener("click", () =>{
@@ -507,5 +575,161 @@ quest43.forEach((q43) => {
   q43.addEventListener("click", () =>{
       q43.classList.toggle("active");
       photos43.classList.toggle("show");
+  })
+})
+quest44.forEach((q44) => {
+  q44.addEventListener("click", () =>{
+      q44.classList.toggle("active");
+      photos44.classList.toggle("show");
+  })
+})
+quest45.forEach((q45) => {
+  q45.addEventListener("click", () =>{
+      q45.classList.toggle("active");
+      photos45.classList.toggle("show");
+  })
+})
+quest46.forEach((q46) => {
+  q46.addEventListener("click", () =>{
+      q46.classList.toggle("active");
+      photos46.classList.toggle("show");
+  })
+})
+quest47.forEach((q47) => {
+  q47.addEventListener("click", () =>{
+      q47.classList.toggle("active");
+      photos47.classList.toggle("show");
+  })
+})
+quest48.forEach((q48) => {
+  q48.addEventListener("click", () =>{
+      q48.classList.toggle("active");
+      photos48.classList.toggle("show");
+  })
+})
+quest49.forEach((q49) => {
+  q49.addEventListener("click", () =>{
+      q49.classList.toggle("active");
+      photos49.classList.toggle("show");
+  })
+})
+quest50.forEach((q50) => {
+  q50.addEventListener("click", () =>{
+      q50.classList.toggle("active");
+      photos50.classList.toggle("show");
+  })
+})
+quest51.forEach((q51) => {
+  q51.addEventListener("click", () =>{
+      q51.classList.toggle("active");
+      photos51.classList.toggle("show");
+  })
+})
+quest52.forEach((q52) => {
+  q52.addEventListener("click", () =>{
+      q52.classList.toggle("active");
+      photos52.classList.toggle("show");
+  })
+})
+quest53.forEach((q53) => {
+  q53.addEventListener("click", () =>{
+      q53.classList.toggle("active");
+      photos53.classList.toggle("show");
+  })
+})
+quest54.forEach((q54) => {
+  q54.addEventListener("click", () =>{
+      q54.classList.toggle("active");
+      photos54.classList.toggle("show");
+  })
+})
+quest55.forEach((q55) => {
+  q55.addEventListener("click", () =>{
+      q55.classList.toggle("active");
+      photos55.classList.toggle("show");
+  })
+})
+quest56.forEach((q56) => {
+  q56.addEventListener("click", () =>{
+      q56.classList.toggle("active");
+      photos56.classList.toggle("show");
+  })
+})
+quest57.forEach((q57) => {
+  q57.addEventListener("click", () =>{
+      q57.classList.toggle("active");
+      photos57.classList.toggle("show");
+  })
+})
+quest58.forEach((q58) => {
+  q58.addEventListener("click", () =>{
+      q58.classList.toggle("active");
+      photos58.classList.toggle("show");
+  })
+})
+quest59.forEach((q59) => {
+  q59.addEventListener("click", () =>{
+      q59.classList.toggle("active");
+      photos59.classList.toggle("show");
+  })
+})
+quest60.forEach((q60) => {
+  q60.addEventListener("click", () =>{
+      q60.classList.toggle("active");
+      photos60.classList.toggle("show");
+  })
+})
+quest61.forEach((q61) => {
+  q61.addEventListener("click", () =>{
+      q61.classList.toggle("active");
+      photos61.classList.toggle("show");
+  })
+})
+quest62.forEach((q62) => {
+  q62.addEventListener("click", () =>{
+      q62.classList.toggle("active");
+      photos62.classList.toggle("show");
+  })
+})
+quest63.forEach((q63) => {
+  q63.addEventListener("click", () =>{
+      q63.classList.toggle("active");
+      photos63.classList.toggle("show");
+  })
+})
+quest64.forEach((q64) => {
+  q64.addEventListener("click", () =>{
+      q64.classList.toggle("active");
+      photos64.classList.toggle("show");
+  })
+})
+quest65.forEach((q65) => {
+  q65.addEventListener("click", () =>{
+      q65.classList.toggle("active");
+      photos65.classList.toggle("show");
+  })
+})
+quest66.forEach((q66) => {
+  q66.addEventListener("click", () =>{
+      q66.classList.toggle("active");
+      photos66.classList.toggle("show");
+  })
+})
+quest67.forEach((q67) => {
+  q67.addEventListener("click", () =>{
+      q67.classList.toggle("active");
+      photos67.classList.toggle("show");
+  })
+})
+quest68.forEach((q68) => {
+  q68.addEventListener("click", () =>{
+      q68.classList.toggle("active");
+      photos68.classList.toggle("show");
+  })
+})
+quest69.forEach((q69) => {
+  q69.addEventListener("click", () =>{
+      q69.classList.toggle("active");
+      photos69.classList.toggle("show");
   })
 })
