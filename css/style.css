@@ -5689,6 +5689,93 @@ header:hover h1 {
    transform: rotate(180deg);
 }
 /* ------------------------------------------------------------- */
+.question186 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+   color: #000;
+}
+.question186.container{
+  color: #006EBB;
+}
+.question186:focus{
+  color: #006EBB;
+}
+.question186 h3 {
+   font-size: 1.8rem;
+}
+.question186 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question186.active i {
+   transform: rotate(180deg);
+}
+/* ------------------------------------------------------------- */
+.question187 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+   color: #000;
+}
+.question187.container{
+  color: #006EBB;
+}
+.question187:focus{
+  color: #006EBB;
+}
+.question187 h3 {
+   font-size: 1.8rem;
+}
+.question187 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question187.active i {
+   transform: rotate(180deg);
+}
+/* ------------------------------------------------------------- */
+.question188 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1210px;
+   margin-top: 2rem;
+   padding-bottom: 1rem;
+   border-bottom: 2px solid black;
+   cursor: pointer;
+   text-decoration: none;
+   color: #000;
+}
+.question188.container{
+  color: #006EBB;
+}
+.question188:focus{
+  color: #006EBB;
+}
+.question188 h3 {
+   font-size: 1.8rem;
+}
+.question188 i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.question188.active i {
+   transform: rotate(180deg);
+}
+/* ------------------------------------------------------------- */
 .container .show-section {
    display: none;
 }
@@ -6245,6 +6332,15 @@ header:hover h1 {
    display: none;
 }
 .container .show-section185 {
+   display: none;
+}
+.container .show-section186 {
+   display: none;
+}
+.container .show-section187 {
+   display: none;
+}
+.container .show-section188 {
    display: none;
 }
 .container .show{
